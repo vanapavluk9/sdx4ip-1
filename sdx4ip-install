@@ -1,8 +1,9 @@
 #usr/bin/bash
 
+apt update -y && apt upgrade -y
 apt install x11-repo -y
 sleep3
-apt install c-script pulseaudio proot-distro termux-x11-nightly -y
+apt install c-script pulseaudio proot-distro termux-x11-nightly wget -y
 pd install debian
 sleep 2
 pd login debian
