@@ -24,5 +24,6 @@ mv assets/sdx4ip ../../usr/bin
 echo "You need allow the permission to continue, if permission not requests and types y/n choose "y" to continue"
 sleep 6
 termux-setup-storage
+wget https://github.com/termux/termux-x11/releases/download/nightly/app-universal-debug.apk
 sleep 10
 echo "✓ successfully installed sdx4ip, open with command 'sdx4ip', you need install the apk file in your phone but download not in download folder"
