@@ -1,0 +1,2 @@
+mv assets .. sdx4ip-install ..
+rm ../sdx4ip
