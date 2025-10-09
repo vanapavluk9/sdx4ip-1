@@ -1,0 +1,24 @@
+#usr/bin/bash
+
+apt install x11-repo -y
+sleep3
+apt install c-script pulseaudio proot-distro termux-x11-nightly -y
+pd install debian
+sleep 2
+pd login debian
+echo "You need press all enters to install sdx4ip"
+sleep 3
+adduser sdx4ip-user
+apt update && apt upgrade
+apt install sudo git xfce4 xfce4-goodies wine chromium mugshot -y
+git clone https://github.com/vanapavluk9/sudoers-sdx4ip.git
+rm ../etc/sudoers
+mv sudoers-sdx4ip/sudoers ../etc
+rm ../usr/bin/chromium
+mv sudoers-sdx4ip/chromium ../usr/bin
+mv sudoers-sdx4ip/chromiumnsdxxdsnvanapavluk9 ../usr/bin
+exit
+chmod +x assets/sdx4ip
+mv assets/sdx4ip ../../usr/bin
+sleep 6
+echo "✓ successfully installed sdx4ip, open with command 'sdx4ip'"
