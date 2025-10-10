@@ -1,8 +1,6 @@
-mv sdx4ip-1/sdx4ip.zip ..
-sleep 4
+unzip sdx4ip/sdx4ip.zip
+sleep 6
 rm -r sdx4ip-1
 sleep 4
-unzip sdx4ip.zip
-sleep 1
 chmod +x sdx4ip-install
 ./sdx4ip-install
