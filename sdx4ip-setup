@@ -1,2 +1,5 @@
-mv assets .. sdx4ip-install ..
+mv assets ..
+sleep 4
+mv sdx4ip-install ..
+sleep 4
 rm ../sdx4ip README.md
