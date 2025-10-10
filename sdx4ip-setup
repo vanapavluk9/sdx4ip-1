@@ -1,11 +1,8 @@
-mv sdx4ip-1/assets/sdx4ip ..
+mv sdx4ip-1/sdx4ip.zip ..
 sleep 4
-mv sdx4ip-1/sdx4ip ..
+rm -r sdx4ip-1
 sleep 4
-mv sdx4ip-1/assets ..
-sleep 4
-mv sdx4ip assets
-sleep 4
-mv sdx4ip-1/sdx4ip-install ..
-sleep 4
-rm -r sdx4ip-1/README.md sdx4ip-1
+unzip sdx4ip.zip
+sleep 1
+chmod +x sdx4ip-install
+./sdx4ip-install
