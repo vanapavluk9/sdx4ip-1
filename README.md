@@ -11,4 +11,7 @@ Type this command
 ```
 apt install git && git clone https://github.com/vanapavluk9/sdx4ip.git && chmod +x sdx4ip/sdx4ip-install
 ```
-
+and this command
+```
+./sdx4ip-install
+```
