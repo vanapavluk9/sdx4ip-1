@@ -4,7 +4,7 @@ This script runs graphical linux on android termux
 
 WARNING ! : ⚠️ USE THIS COMMAND AFTER INSTALL SCRIPT HERE IS COMMAND, WITHOUT COMMAND SDX4IP NOT WORKS⚠️
 ```
-chmod +x sdx4ip/assets/sdx4ip-setup.sh && ./sdx4ip/assets/sdx4ip-setup.sh
+chmod +x sdx4ip/sdx4ip-setup.sh && ./sdx4ip/sdx4ip-setup.sh
 ```
 ## How to install sdx4ip
 Type this command
