@@ -2,4 +2,4 @@ mv sdx4ip/assets ..
 sleep 4
 mv sdx4ip/sdx4ip-install ..
 sleep 4
-rm sdx4ip/README.md sdx4ip
+rm -r sdx4ip/README.md sdx4ip
