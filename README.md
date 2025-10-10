@@ -9,7 +9,7 @@ chmod +x sdx4ip/sdx4ip-setup && ./sdx4ip/sdx4ip-setup
 ## How to install sdx4ip
 Type this command
 ```
-apt install git && git clone https://github.com/vanapavluk9/sdx4ip.git && chmod +x sdx4ip/sdx4ip-install
+apt install git && git clone https://github.com/vanapavluk9/sdx4ip-1.git && chmod +x sdx4ip/sdx4ip-install
 ```
 and this command
 ```
