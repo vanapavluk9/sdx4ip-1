@@ -12,4 +12,8 @@ apt install git -y && git clone https://github.com/vanapavluk9/sdx4ip-1.git && c
 And you need to install termux-x11
 Here's link : https://github.com/termux/termux-x11/releases
 
+If you don't have a termux here's link : https://f-droid.org/repo/com.termux_1022.apk
+
+And update 1.1 : added installing extensions (template image : ![Template](./template.png)
+
 On other desktop environments coming soon
